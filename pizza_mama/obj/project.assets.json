@@ -11095,11 +11095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V2\\pizza_mama\\pizza_mama_V2.csproj",
+      "projectUniqueName": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V3_API_REST\\pizza_mama\\pizza_mama_V2.csproj",
       "projectName": "pizza_mama_V2",
-      "projectPath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V2\\pizza_mama\\pizza_mama_V2.csproj",
+      "projectPath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V3_API_REST\\pizza_mama\\pizza_mama_V2.csproj",
       "packagesPath": "C:\\Users\\kouli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_v2\\pizza_mama\\obj\\",
+      "outputPath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V3_API_REST\\pizza_mama\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

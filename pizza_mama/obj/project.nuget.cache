@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F51bd09BTd2gBz/u4NcIA92NGkou4XB+ALIm6jdBjncq3HzOm1zEEUtv7aVAjqqZj1xa9P9XCPJjkHS4cIsrpA==",
+  "dgSpecHash": "gpa2GN4BDNzL+aUGufUGUT5emOsK2HhUZ2L82fnYB1PyFNibdvZVti2dfensZvCJ7DWzrQXr8lK7MSEkVEZ6rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_v2\\pizza_mama\\pizza_mama_V2.csproj",
+  "projectFilePath": "C:\\Users\\kouli\\source\\repos\\pizza_mama_V3_API_REST\\pizza_mama\\pizza_mama_V2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kouli\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\kouli\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
