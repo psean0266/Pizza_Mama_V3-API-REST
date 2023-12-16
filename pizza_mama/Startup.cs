@@ -40,8 +40,11 @@ namespace pizza_mama
                       options.LoginPath = "/Admin";
                     });
             //
+            //services.AddDbContext<DataContext>(options =>
+            //       options.UseSqlite(Configuration.GetConnectionString("DefaultConnectionSqlite")));
+
             services.AddDbContext<DataContext>(options =>
-                   options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //
             services.AddRazorPages();
@@ -51,7 +54,9 @@ namespace pizza_mama
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+       //     if (env.IsDevelopment())
+
+             if(true)
             {
                 app.UseDeveloperExceptionPage();
             }
