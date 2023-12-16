@@ -7,18 +7,26 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace pizza_mama.Pages.Admin
 {
     public class IndexModel : PageModel
     {
         public bool DisplayInvalidAccountMessage = false;
+        public bool IsdevelopementMode = false;
 
         IConfiguration configuration;
 
-        public IndexModel (IConfiguration configuration)
+        public IndexModel (IConfiguration configuration, IWebHostEnvironment env)
         {   
             this.configuration = configuration;
+
+            if (env.IsDevelopment())
+            {
+                IsdevelopementMode =true;
+            }
         }
         public IActionResult OnGet() 
         {
