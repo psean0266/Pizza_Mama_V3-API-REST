@@ -121,4 +121,8 @@ div.homePage {
     .menu_list_vegetarienne {
         font-size: 16px;
     }
+
+    .homePage {
+        font-size: 24px;
+    }
 }
