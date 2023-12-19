@@ -13,7 +13,7 @@ body {
 
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
     font-family: Arial;
     margin: 0px;
@@ -104,4 +104,25 @@ div.homePage {
 }
 .main_link_position a {
     color: red;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .menu_list_ingredients {
+        font-size: 24px;
+    }
+
+    .menu_list_item {
+        font-size: 23px;
+        margin: 30px 0px;
+    }
+
+    .menu_list_vegetarienne {
+        font-size: 16px;
+    }
+
+    .homePage {
+        font-size: 24px;
+    }
 }
