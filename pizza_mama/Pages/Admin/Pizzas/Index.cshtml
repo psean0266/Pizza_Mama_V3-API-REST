@@ -1,8 +1,13 @@
 ﻿@page
+@using System.Security.Claims;
 @model pizza_mama.Pages.Admin.Pizzas.IndexModel
 
 @{
     ViewData["Title"] = "Administration des pizzas";
+}
+
+@{
+    var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -43,9 +48,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ingredients)
             </td>
+
+
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.PizzaId">Editer</a> |
-                <a asp-page="./Delete" asp-route-id="@item.PizzaId">Supprimer</a>
+                    @if (userRole == "Administrator")
+                    {
+                        <a asp-page="./Delete" asp-route-id="@item.PizzaId">Supprimer</a>
+                    }
+                <a asp-page="./Edit" asp-route-id="@item.PizzaId">Editer</a> 
+                @*<a asp-page="./Delete" asp-route-id="@item.PizzaId">Supprimer</a>*@
             </td>
         </tr>
 }

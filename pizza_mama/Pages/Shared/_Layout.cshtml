@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -27,13 +28,25 @@
                     </ul>
                 </div> *@
 
+
+                @{
+                    var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+                }
+
+
                 @if (Context.User.Identity.IsAuthenticated)
                 {
                     <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
                         <ul class="navbar-nav ">
-                            <li class="nav-item">
+                      @*      <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page-handler="Logout" asp-page="/Admin/Index">Se déconnecter</a>
+                            </li>*@
+                            <li class="nav-item">
+                                Bonjour @userRole @User.Identity.Name
+                                
+                                <a class=" text-dark" asp-area="" asp-page-handler="Logout" asp-page="/Admin/Index" style="margin-left:45px"> Se déconnecter</a>
                             </li>
+                            
                         </ul>
                     </div>
                 }

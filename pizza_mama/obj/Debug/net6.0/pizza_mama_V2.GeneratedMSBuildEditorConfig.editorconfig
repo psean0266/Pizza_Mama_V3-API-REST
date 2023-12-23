@@ -9,61 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = pizza_mama_V2
 build_property.RootNamespace = pizza_mama_V2
-build_property.ProjectDir = C:\Users\kouli\source\repos\pizza_mama_V3_API_REST\pizza_mama\
+build_property.ProjectDir = C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\Pizza_Mama_V3-API-REST\pizza_mama\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kouli\source\repos\pizza_mama_V3_API_REST\pizza_mama
+build_property.MSBuildProjectDirectory = C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\Pizza_Mama_V3-API-REST\pizza_mama
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/Index.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/Pizzas/Create.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/Pizzas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGl6emFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/Pizzas/Delete.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/Pizzas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGl6emFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/Pizzas/Edit.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/Pizzas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGl6emFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/Pizzas/Index.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/Pizzas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGl6emFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Admin/_ViewStart.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/UsersManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNNYW5hZ2VtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/UsersManagement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNNYW5hZ2VtZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/UsersManagement/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNNYW5hZ2VtZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/UsersManagement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNNYW5hZ2VtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/UsersManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Admin/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Error.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Index.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/MenuPizzas.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/MenuPizzas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVBpenphcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Privacy.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Shared/_Layout.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kouli/source/repos/pizza_mama_V3_API_REST/pizza_mama/Pages/_ViewImports.cshtml]
+[C:/Users/AbdoulayePangnonKOUL/source/repos/Jonathan/Pizza_Mama_V3-API-REST/pizza_mama/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
