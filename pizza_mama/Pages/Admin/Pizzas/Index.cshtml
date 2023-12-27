@@ -6,9 +6,9 @@
     ViewData["Title"] = "Administration des pizzas";
 }
 
-@{
+@*@{
     var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
-}
+}*@
 
 <h1>@ViewData["Title"]</h1>
 
@@ -51,10 +51,10 @@
 
 
             <td>
-                    @if (userRole == "Administrator")
-                    {
+                  @*  @if (userRole == "Administrator")
+                    {*@
                         <a asp-page="./Delete" asp-route-id="@item.PizzaId">Supprimer</a>
-                    }
+                  @*  }*@
                 <a asp-page="./Edit" asp-route-id="@item.PizzaId">Editer</a> 
                 @*<a asp-page="./Delete" asp-route-id="@item.PizzaId">Supprimer</a>*@
             </td>

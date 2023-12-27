@@ -1,19 +1,23 @@
 ﻿@page
-@model pizza_mama_V2.Pages.UsersManagement.IndexModel
+@using System.Security.Claims;
+@model pizza_mama_V2.Pages.Admin.UsersManagement.IndexModel
 
 @{
+    var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
     ViewData["Title"] = "Index";
 }
 
-@*<head>
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>*@
-
 <h1>Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+@{
+    if (userRole == "Administrator")
+    {
+        <p>
+            <a asp-page="Create">Create New</a>
+        </p>
+    }
+}
+
 <table class="table">
     <thead>
         <tr>

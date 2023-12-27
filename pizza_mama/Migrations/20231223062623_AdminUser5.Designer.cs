@@ -10,8 +10,8 @@ using pizza_mama.Data;
 namespace pizza_mama_V2.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231223052019_AdminUser2")]
-    partial class AdminUser2
+    [Migration("20231223062623_AdminUser5")]
+    partial class AdminUser5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,8 +20,9 @@ namespace pizza_mama_V2.Migrations
 
             modelBuilder.Entity("pizza_mama_V2.Models.Account", b =>
                 {
-                    b.Property<string>("AccountId")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("AccountId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Password")
                         .HasColumnType("TEXT");

@@ -10,8 +10,8 @@ using pizza_mama.Data;
 namespace pizza_mama_V2.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231220183538_UpdAdmin2")]
-    partial class UpdAdmin2
+    [Migration("20231223060550_AdminUser4")]
+    partial class AdminUser4
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

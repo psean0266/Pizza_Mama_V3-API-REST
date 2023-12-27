@@ -4,7 +4,7 @@
 
 namespace pizza_mama_V2.Migrations
 {
-    public partial class AdminUser2 : Migration
+    public partial class AdminUser4 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

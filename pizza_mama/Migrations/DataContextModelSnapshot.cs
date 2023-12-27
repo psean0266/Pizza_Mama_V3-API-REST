@@ -18,8 +18,9 @@ namespace pizza_mama_V2.Migrations
 
             modelBuilder.Entity("pizza_mama_V2.Models.Account", b =>
                 {
-                    b.Property<string>("AccountId")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("AccountId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Password")
                         .HasColumnType("TEXT");

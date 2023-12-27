@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using pizza_mama.Data;
 using pizza_mama_V2.Models;
 
-namespace pizza_mama_V2.Pages.UsersManagement
+namespace pizza_mama_V2.Pages.Admin.UsersManagement
 {
     public class DetailsModel : PageModel
     {
@@ -21,7 +21,7 @@ namespace pizza_mama_V2.Pages.UsersManagement
 
         public Account Account { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
             {

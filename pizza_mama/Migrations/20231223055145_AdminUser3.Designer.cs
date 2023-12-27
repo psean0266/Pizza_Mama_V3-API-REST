@@ -10,13 +10,32 @@ using pizza_mama.Data;
 namespace pizza_mama_V2.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231220182814_UpdAdmin")]
-    partial class UpdAdmin
+    [Migration("20231223055145_AdminUser3")]
+    partial class AdminUser3
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.25");
+
+            modelBuilder.Entity("pizza_mama_V2.Models.Account", b =>
+                {
+                    b.Property<string>("AccountId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Roles")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("AccountId");
+
+                    b.ToTable("Accounts");
+                });
 
             modelBuilder.Entity("pizza_mama.Models.Pizza", b =>
                 {

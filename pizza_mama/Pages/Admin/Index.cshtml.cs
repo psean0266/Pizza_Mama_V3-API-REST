@@ -15,7 +15,7 @@ namespace pizza_mama.Pages.Admin
     public class IndexModel : PageModel
     {
         public bool DisplayInvalidAccountMessage = false;
-          private readonly pizza_mama.Data.DataContext _context;
+        private readonly pizza_mama.Data.DataContext _context;
 
         IConfiguration configuration;
 
@@ -35,10 +35,11 @@ namespace pizza_mama.Pages.Admin
         public async Task<IActionResult> OnPostAsync(string username, string password, string ReturnUrl) 
         {
             var authSection = configuration.GetSection("Auth");
-            //string adminLogin = authSection["AdminLogin"];
-            //string AdminPassword = authSection["AdminPassword"];
+            string adminLogin = authSection["AdminLogin"];
+            string AdminPassword = authSection["AdminPassword"];
 
-            //if((username == adminLogin)&& (password == AdminPassword)) {
+            //if ((username == adminLogin) && (password == AdminPassword))
+            //{
 
             //    DisplayInvalidAccountMessage = false;
             //    var claims = new List<Claim>
@@ -49,13 +50,14 @@ namespace pizza_mama.Pages.Admin
             //    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new
             //    ClaimsPrincipal(claimsIdentity));
             //    return Redirect(ReturnUrl == null ? "/Admin/Pizzas" : ReturnUrl);
-                
+
             //}
 
 
-            if( username != null) {
-            
-                var user =  await _context.Accounts.FirstOrDefaultAsync(u=> u.Username == username && u.Password==password);
+            if (username != null)
+            {
+
+                var user = await _context.Accounts.FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
 
                 if (user != null)
                 {

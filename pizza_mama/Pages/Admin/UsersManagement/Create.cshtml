@@ -1,8 +1,10 @@
 ﻿@page
-@model pizza_mama_V2.Pages.UsersManagement.CreateModel
+@using System.Security.Claims;
+@model pizza_mama_V2.Pages.Admin.UsersManagement.CreateModel
 
 @{
     ViewData["Title"] = "Create";
+    var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
 }
 
 <h1>Create</h1>
@@ -13,11 +15,6 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Account.AccountId" class="control-label"></label>
-                <input asp-for="Account.AccountId" class="form-control" readonly />
-                <span asp-validation-for="Account.AccountId" class="text-danger"></span>
-            </div>
             <div class="form-group">
                 <label asp-for="Account.Username" class="control-label"></label>
                 <input asp-for="Account.Username" class="form-control" />
