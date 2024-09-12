@@ -4,6 +4,11 @@
 }
 
 
+@if (Model.IsDeveloppementMode)
+{
+    <p>MODE DEVELOPPEMENT</p>
+}
+
 <h1>Vous devez vous authentifier</h1>
 <br />
 @if (Model.DisplayInvalidAccountMessage)
